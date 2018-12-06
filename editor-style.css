@@ -1,0 +1,61 @@
+.post-content h1 {
+    font-size: 28px;
+    position: relative;
+    padding: 0.6em;
+    background: #F07878;
+    border-radius: 8px;
+    color: #000060;
+    padding: 10px;
+    margin: 20px 0;
+  }
+  
+.post-content h1:after {
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 30px;
+  border: 15px solid transparent;
+  border-top: 15px solid #F07878;
+  width: 0;
+  height: 0;
+}
+
+.post-content h2 {
+    color: #000060;/*文字色*/
+    background: transparent;/*背景透明に*/
+    background-color: #f078782e;
+    border-left: solid 5px #F07878;/*左線*/
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 26px;
+}
+
+.post-content h3 {
+    color: #000060;
+    background: transparent;
+    background-color: #f078782e;
+    border-left: solid 5px #F07878;
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 24px;
+}
+
+.post-content h4 {
+    color: #000060;
+    background: transparent;
+    background-color: #f078782e;
+    border-left: solid 5px #F07878;
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 22px;
+}
+
+.post-content h5 {
+    color: #000060;
+    background: transparent;
+    background-color: #f078782e;
+    border-left: solid 5px #F07878;
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 20px;
+}
