@@ -111,7 +111,7 @@ function shortcode_twitter(){
 add_shortcode('twitter', 'shortcode_twitter');
 
 
-// ロゴ画像をカスタマイザ〜から設定する
+// ロゴ画像をカスタマイザーから設定する
 add_action('customize_register', 'theme_customize');
 function theme_customize($wp_customize){
     //ロゴ画像

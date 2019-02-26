@@ -533,9 +533,16 @@ input[type=submit] {
 }
 
 .post-content p{
-    line-height: 2.5;
+    line-height: 1.75;
     font-weight: 400;
     font-size: 16px;
+    margin-bottom: 1.25rem;
+}
+
+.post-content ul {
+    list-style: initial;
+    text-align: inherit;
+    margin-bottom: 1.25rem;
 }
 
 .post-content a {
@@ -774,6 +781,8 @@ footer {
     display: flex;
     justify-content: flex-end;
 }
+
+/* RESPONSIVE */
 
 @media(min-width: 320px){
     .round input, textarea {
@@ -1632,22 +1641,22 @@ footer {
     }
 }
 
-@media (min-with: 1550px){
+@media (min-width: 1550px){
     .top {
         height: 950px;
     }
 }
 
-@media (min-with: 1740px){
+@media (min-width: 1740px){
     .top {
-        height: 850px;
+        height: 900px;
     }
 }
 
 
-@media (min-with: 1920px) {
+@media (min-width: 1920px) {
     .top {
-        height: 900px;
+        height: 980px;
     }
 }
 

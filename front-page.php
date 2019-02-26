@@ -43,7 +43,7 @@
         </div>
         <div class="info">
           <div class="portfolio">
-            <a href="https://blog-tomdom.site/portfolio"><img src="<?php echo get_template_directory_uri(); ?>/images/portfolio.png" alt=""></a>
+            <a href="https://kanami.tech" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/portfolio.png" alt=""></a>
           </div>
           <div class="concept">
             <a href="https://blog-tomdom.site/concept"><img src="<?php echo get_template_directory_uri(); ?>/images/concept.png" alt=""></a>            
